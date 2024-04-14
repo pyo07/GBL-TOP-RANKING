@@ -2,9 +2,16 @@
 <html>
         <head>
             <title>GBL TOP RANKING</title>
+            <link rel="stylesheet" href="mystyle.css">
             <style>
-                *{
+                * {
                     text-align: center;
+                }
+                body {
+                     background-image: url(gbl.jpg);
+                     background-repeat: no-repeat;
+                     background-attachment: fixed;
+                     background-position: center;
                 }
                 a {
                     color: black;
@@ -12,12 +19,6 @@
                 }
                 p {
                     text-align: justify;
-                }
-                .myDiv {
-                  border: 3px outset rgb(1, 9, 7);
-                  background-color: rgba(241, 234, 241, 0);
-                  width: 970px;
-                  text-align: center;
                 }
                 .gl{
                     color: blue;
@@ -32,10 +33,13 @@
     </head>
     <body>
         <h1><a href="index.html">GBL TOP RANKING</a></h1>
-    <div class="myDiv">
-        <p><strong>GO Battle League</strong> is a feature in Pokémon GO that allows Trainers to battle opponents around the globe in online Trainer Battles.<br>
-        GO Battle League is split into sets of five matches each. Trainers can only play a maximum of 5 sets per day.</p>
-    </div>
+    
+        <p style="background-color: white;
+                text-align: center;">
+        <strong>GO Battle League</strong> is a feature in Pokémon GO that allows Trainers to battle opponents around the globe in online Trainer Battles.<br>
+        GO Battle League is split into sets of five matches each. Trainers can only play a maximum of 5 sets per day.
+        </p>
+
         <img src="gl.jpg" width="10%" alt="html image">
         <form action="2.html" get="post">
             <button type="submit" class="gl">Great League</button>
